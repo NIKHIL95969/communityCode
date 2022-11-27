@@ -51,7 +51,14 @@ a {
 ul {
     list-style: none;
 }
+.c-name{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: -600px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
 
+}
 /*  Utility classes */
 .small-bold-text {
     font-size: 1rem;
