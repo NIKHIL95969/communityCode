@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Community Code</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media_queries.css">
 </head>
 
 <body>
@@ -16,16 +17,33 @@
         </div>
     </div> -->
 
-    <nav id="nav">
-
+    <nav id="#">
+        <div class="container main-nav flex">
+            <a href="#" class="community-logo">
+                <img src="assets/logo.png" alt="logo">
+            </a>
+            
+            <div class="nav-links">
+                <ul class="flex">
+                    <li><a href="#" class="hover-link">Home</a></li>
+                    <li><a href="#" class="hover-link">Contact</a></li>
+                    <li><a href="#" class="hover-link">Service</a></li>
+                    <li><a href="#" class="hover-link">About</a></li>
+                    <li><a href="#" class="hover-link"><i class="fa-solid fa-circle-half-stroke"></i></a></li>
+                    <li><a href="#" class="hover-link secondary-button">Sign In</a></li>
+                    <li><a href="#" class="hover-link primary-button">Sign Up</a></li>
+                </ul>
+            </div>
+            <a href="#" class="nav-toggle hover-link"><i class="fa-solid fa-bars"></i></a>
+        </div>
     </nav>
 
     <header>
-        <div class="container header-section flex-c">
+        <div class="container header-section flex-sm">
             
             
             <img src="assets/svg/code.svg" alt="">
-            <h1>Code For Community</h1>
+            <h1 header-top>Code For Community</h1>
             <p class="pgh">Community work means work that is not for private financial gain and that is done for a charitable, benevolent, philanthropic, sporting, recreational, educational or cultural purpose</p>
             <a href="#" class="primary-button">Get Started</a>
             
@@ -34,7 +52,7 @@
     </header>
 
     <section class="community-section">
-        <div class="container header-section flex">
+        <div class="container header-section flex-c">
             
             <div class="header-left">
                 <h1>Community</h1>
@@ -42,7 +60,7 @@
                 <a href="#" class="primary-button">Learn</a>
             </div>
             <div class="header-right">
-                <img src="assets/svg/curser.svg" alt="">
+                <img class="section-img" src="https://learn.g2.com/hubfs/graphic-design-dev.svg" alt="">
             </div>
             
         </div>
@@ -50,10 +68,10 @@
 
 
     <section class="learn-section">
-        <div class="container header-section flex">
+        <div class="container header-section flex-c">
         
             <div class="header-left">
-                <img src="assets/svg/tech-talk.svg" alt="">
+                <img src="https://www.clipartkey.com/mpngs/m/327-3277331_dealroom-meeting-illustration-png-transparent.png" alt="">
             </div>
             <div class="header-right">
                 <h1>Learn new Tech</h1>
@@ -68,7 +86,7 @@
 
 
     <section class="group-section">
-        <div class="container header-section flex">
+        <div class="container header-section flex-c">
 
             <div class="header-right">
                 <h1>Make Groups</h1>
